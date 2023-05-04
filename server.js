@@ -61,8 +61,8 @@ app.post("/feedback", (request, response) => {
   const taleClassifier = new natural.BayesClassifier();
   // supply a training set of data for two membership: night and day
   taleClassifier.addDocument("araba kamyon uçak tren dozer itfaiye helikopter motor kamyonet traktör", "Taşıtlar");
-  taleClassifier.addDocument("prenses taç peri melek büyü sihir kraliçe kral prens şovalye saray padişah şato iksir cadı sultan", "Peri Masalları");
-  taleClassifier.addDocument("kuş köpek tilki kurt karga aslan leopar yunus kaplumbağa tavşan maymun kedi fare", "Hayvanlar");
+  taleClassifier.addDocument("prenses taç peri melek büyü sihir kraliçe kral prens şovalye saray padişah şato iksir cadı sultan perisi perinin prensesi prensesin", "Peri Masalları");
+  taleClassifier.addDocument("kuş köpek tilki kurt karga aslan leopar yunus kaplumbağa tavşan maymun kedi fare maymunu balık balığı", "Hayvanlar");
   taleClassifier.addDocument("zeus afrodit unicorn pegasus poseidon", "Mitoloji");
 
 
