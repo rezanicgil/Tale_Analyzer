@@ -1,2 +1,2 @@
 # Tale_Analyzer
-An express ap to categorize Tale Story.
+An express app to categorize Tale Story. With AI NLP Logic.
